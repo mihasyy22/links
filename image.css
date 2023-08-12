@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+    background-image: url(https://media.tenor.com/kl1LCEDpoakAAAAC/discord.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+p{
+font-size: 70px;
+color: skyblue;
+background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg);
+background-size: cover;
+}
+.image{
+width: 50%;
+margin: auto;
+display: block;
+border-radius: 25%;
+box-shadow: 20px -20px 50px white;
+}
+.img2{
+width: 300px;
+}
+.d1{
+width: 500px;
+height: 300px;
+background-image: https://imgv3.fotor.com/images/blog-richtext-image/part-blurry-image.jpg;
+background-size: cover;
+}
+.d2{
+width: 500px;
+height: 300p;
+background: linear-gradient(45deg,rgba(255, 255, 0, 1.0));
+
+}

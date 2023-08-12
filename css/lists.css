@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+body{
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/968/002/small/cute-abstract-modern-background-free-vector.jpg);
+background-size: cover;
+}
+p{
+	font-size: 50px;
+	color: hotpink;
+	text-align: center;
+	font-family: 'Kablammo', cursive;
+	text-shadow: 2px -2px red, 4px -4px grey;
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: blue;
+	margin-left: 100px;
+}
+.fl li::marker{
+	color: hotpink;
+}
+
+@counter-style ml {
+  system: cyclic;
+  symbols: 😀 👻 🦇 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+
+ul.il {
+  list-style: ml;
+}

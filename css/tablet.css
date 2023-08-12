@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+body{
+background-color: skyblue;
+}
+p{
+font-size: 50px;
+text-align: center	;
+font-family: 'Marmelad', sans-serif;
+color: red;
+text-shadow: 5px  -5px gray;
+}
+table{
+     border: bouble 5px white;
+     font-size: 24px;
+     width: 50%;
+}
+th,td{
+  border: solid 5px red;
+  width: 25%;
+  height: 1.5cm;
+}
+tr:hover{
+background-color: DodgerBlue;
+}
+td:hover{
+background-image: url(https://art.pixilart.com/e43212dccc79b0d.gif);
+background-size: cover;
+text-align: center;
+font-weight: 700;
+text-transform: uppercase;
+color: MediumBlue;
+font-size: 1.5em;
+}
+tr:nth-child(even){
+background-color: lightseagreen;
+}}
+tr:nth-child(odd){
+background-color: white;
+}
+.f1{
+border-color: Gold;
+text-align: right;
+vertical-align: bottom;
+}
+caption{
+font-size: 48px;
+color: #0ff;
+background: linear-gradient(to left, Red, Orange, Yellow, Green, Blue, Indigo, Violet.);
+}
